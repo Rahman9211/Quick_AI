@@ -74,7 +74,7 @@ const GenerateImage = () => {
           </button>
         </form>
         {/* Right col */}
-        <div className="w-full max-w-lg p-4 bg-white rounded-lg flex flex-col border border-gray-200 min-h-96 max-h-96">
+        <div className="w-full max-w-lg p-4 bg-white rounded-lg flex flex-col border border-gray-200 min-h-[480px] max-h-[680px]">
           <div className="flex item-center gap-3">
             <Image className="w-5 h-5 text-[#04FF50]" />
             <h1 className="text-xl font-semibold ">Generate image</h1>
